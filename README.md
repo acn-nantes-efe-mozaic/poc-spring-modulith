@@ -1,6 +1,6 @@
 # 🌟 Application de démonstration Spring Modulith
 
-> 📌 Voir aussi : [Documentation Modulith avancée (doc interne)](MODULITH.md)
+> 📌 Voir aussi : [Documentation Modulith avancée (doc interne)](doc/MODULITH.md)
 
 
 > **Objectif** : illustrer une architecture modulaire avec Spring Modulith, en réécrivant une application monolithique traditionnelle selon les principes du Domain‑Driven Design et de l'architecture hexagonale.
@@ -222,6 +222,24 @@ class ModularityTest {
 ### Gestion des dépendances entre modules
 
 Chaque module peut déclarer ses dépendances vers d'autres modules via les interfaces marquées avec `@NamedInterface`. Par exemple, le module `candidature` dépend du module `candidat` via l'interface `CandidatServiceGateway`.
+
+## 📚 Documentation des API avec Swagger
+
+L'application est documentée avec **Swagger UI**, offrant une interface interactive pour explorer et tester les différentes API exposées.
+
+### Accès à la documentation
+
+- **URL de l'interface Swagger** : `http://localhost:8080/swagger-ui.html`
+- **Spécification OpenAPI** : `http://localhost:8080/v3/api-docs`
+
+### Fonctionnalités
+
+- Visualisation interactive de toutes les API disponibles
+- Documentation complète des endpoints, paramètres et modèles
+- Possibilité d'effectuer des appels API directement depuis l'interface
+- Documentation des codes de statut HTTP et des schémas de réponses
+
+![Interface Swagger](doc/Swagger.png)
 
 ## 🚀 Démarrage rapide
 
