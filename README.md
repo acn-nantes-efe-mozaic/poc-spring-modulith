@@ -1,5 +1,8 @@
 # 🌟 Application de démonstration Spring Modulith
 
+> 📌 Voir aussi : [Documentation Modulith avancée (doc interne)](MODULITH.md)
+
+
 > **Objectif** : illustrer une architecture modulaire avec Spring Modulith, en réécrivant une application monolithique traditionnelle selon les principes du Domain‑Driven Design et de l'architecture hexagonale.
 
 ## 📋 Table des matières
