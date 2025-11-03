@@ -239,7 +239,7 @@ L'application est documentée avec **Swagger UI**, offrant une interface interac
 - Possibilité d'effectuer des appels API directement depuis l'interface
 - Documentation des codes de statut HTTP et des schémas de réponses
 
-![Interface Swagger](doc/Swagger.png)
+![Interface Swagger](doc/swagger.png)
 
 ## 🚀 Démarrage rapide
 
